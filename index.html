@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="es" data-tema="sistema">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Control de Gastos</title>
+  <meta name="description" content="Tus ingresos, servicios y gastos, claros mes a mes">
+  <meta name="theme-color" content="#00796B">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="iconos/icono-192.png">
+  <!-- iPhone: al agregarla a la pantalla de inicio se abre a pantalla completa, como una app -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Gastos">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="apple-touch-icon" href="iconos/apple-touch-icon.png">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <div id="app"></div>
+  <div id="capa"></div>
+  <div id="aviso" role="status" aria-live="polite"></div>
+  <input type="file" id="archivo" accept=".json,application/json,text/plain" hidden>
+  <noscript>Control de Gastos necesita JavaScript activado.</noscript>
+  <script src="datos.js"></script>
+  <script src="app.js"></script>
+  <script src="pantallas.js"></script>
+</body>
+</html>

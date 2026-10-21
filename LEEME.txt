@@ -1,0 +1,42 @@
+CONTROL DE GASTOS — VERSIÓN WEB (para iPhone, Android y computador)
+=====================================================================
+
+Esta carpeta es la app completa. Solo hay que publicarla en internet (gratis)
+y abrirla desde el iPhone.
+
+1) PUBLICARLA GRATIS CON GITHUB PAGES (una sola vez)
+   a. Crea una cuenta en https://github.com
+   b. Arriba a la derecha: "+" -> "New repository".
+      Nombre: control-gastos   ·   Marca "Public"   ·   "Create repository".
+   c. En el repositorio nuevo toca "uploading an existing file".
+      Arrastra TODO lo que hay dentro de esta carpeta "web"
+      (index.html, estilos.css, los .js, manifest.webmanifest y la carpeta iconos).
+      Luego "Commit changes".
+   d. Ve a "Settings" -> "Pages". En "Branch" elige "main" y "/ (root)" -> "Save".
+   e. En 1 o 2 minutos aparece la dirección, algo como:
+         https://TU-USUARIO.github.io/control-gastos/
+
+2) PONERLA EN EL iPHONE
+   a. Abre esa dirección en SAFARI (no en Chrome).
+   b. Toca el botón Compartir (el cuadrado con la flecha hacia arriba).
+   c. "Agregar a pantalla de inicio" -> "Agregar".
+   d. Ábrela siempre desde ese ícono "Gastos": así funciona a pantalla completa,
+      sin internet, y iOS no borra los datos.
+
+3) PASAR TUS DATOS DESDE LA APP DE ANDROID
+   a. En Android: Ajustes -> Respaldo -> Exportar (guárdalo en Google Drive o envíatelo).
+   b. En el iPhone: guarda el archivo en "Archivos" (o iCloud Drive).
+   c. En la app web: Ajustes -> Respaldo -> Importar -> elige el archivo.
+
+4) ACTUALIZAR LA APP MÁS ADELANTE
+   Sube los archivos nuevos al mismo repositorio (reemplazando los anteriores).
+   Antes, en sw.js cambia VERSION (por ejemplo 'control-gastos-v2') para que
+   los celulares descarguen la versión nueva. Tus datos no se pierden.
+
+IMPORTANTE
+- Los datos quedan guardados SOLO en el navegador del celular, no en internet.
+  GitHub solo guarda la app, nunca tus datos.
+- Exporta un respaldo de vez en cuando (Ajustes -> Respaldo -> Exportar).
+- En iPhone las notificaciones solo funcionan con la app agregada a la pantalla
+  de inicio (iOS 16.4 o superior). Igual, al abrir la app el menú te muestra lo
+  que está por vencer.
